@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/GoDiary"
+        android:layout_width="408dp"
+        android:layout_height="126dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#0e3d4c"
+        android:text="Diary"
+        android:textColor="@color/white"
+        tools:ignore="InvalidId,MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="206dp" />
+    <Button
+        android:id="@+id/GoReminder"
+        android:layout_width="408dp"
+        android:layout_height="126dp"
+        android:layout_marginTop="300dp"
+        android:backgroundTint="#0e3d4c"
+        android:text="Reminder"
+        android:textColor="@color/white"
+        tools:ignore="InvalidId,MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="206dp" />
+    <Button
+        android:id="@+id/GoToDo"
+        android:layout_width="408dp"
+        android:layout_height="126dp"
+        android:backgroundTint="#0e3d4c"
+        android:text="To-Do"
+        android:layout_marginTop="500dp"
+        android:textColor="@color/white"
+        tools:ignore="InvalidId,MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="206dp" />
+
+</RelativeLayout>
